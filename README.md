@@ -7,7 +7,7 @@ Each files contains:
 * ISO 639-2 codes
 * ISO 639-3 codes
 * English language name
-* Local language name 
+* Local language name
 
 ## What's next?
 It would be great to add countries which use officially, co-officially and unofficially the language by adding this structure:
@@ -21,10 +21,12 @@ It would be great to add countries which use officially, co-officially and unoff
   }
 }
 ```
-Adding thse data will require a lot of time and is not currently required, but feel free to make PRs
+
+You can also add the language name in your own language.
+Adding those data will require a lot of time and is not currently required, but feel free to make PRs
 
 ## Structure
-```json
+```json5
 {
   "639-1": "fr",
   "639-2": "fre/fra",
